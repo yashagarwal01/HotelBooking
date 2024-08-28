@@ -1,0 +1,46 @@
+.nav-links {
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+    width: 100%;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+
+
+.nav-link-text {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+        background-color: white;
+        border-radius: 4px;
+        padding: 2px 7px;
+        cursor: pointer;
+        color: #d2164d;
+
+    }
+}
+
+.nav-link-text.active {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 4px;
+    padding: 2px 7px;
+    color: #d2164d;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .nav-links {
+        max-width: 160px;
+    }
+     
+
+    .nav-link-text {
+       font-size: 13px;
+    }
+
+}

@@ -1,0 +1,19 @@
+.hotel-card-action{
+    justify-content: end;
+}
+
+.hotel-card-image{
+    height: 160px;
+}
+
+.hotel-card-container{
+    max-width: 400px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .hotel-card-container{
+        max-width: 100%;
+       
+    }
+  }

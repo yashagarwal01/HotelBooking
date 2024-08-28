@@ -1,0 +1,14 @@
+.form-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+
+}
+
+
+
+.form-textfield{
+    margin-bottom: 20px !important;
+}

@@ -1,0 +1,23 @@
+.table-wrapper{
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.table-container{
+    max-height: 440px;
+}
+
+.table-heading{
+    font-weight: bold ;
+    font-family: "Rubik" ;
+}
+
+.table-data{
+    color: grey;
+}
+.table-button{
+    margin-top: 20px  !important;
+    
+    
+}

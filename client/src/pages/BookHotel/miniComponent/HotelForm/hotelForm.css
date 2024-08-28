@@ -1,0 +1,24 @@
+.hotel-form{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    width: 0;
+    padding: 15px;
+}
+
+.loading-button{
+    margin-left: auto;
+    margin-top: 20px;
+    width: 200px ;
+}
+.hotel-form .rdrMonth{
+    width: 100% !important;
+}
+
+@media only screen and (max-width: 750px) {
+    .hotel-form{
+       
+        width: 100%;
+    }
+    
+  }

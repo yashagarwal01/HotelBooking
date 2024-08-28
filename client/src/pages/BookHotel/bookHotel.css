@@ -1,0 +1,9 @@
+.book-hotel-container{
+    display: flex;
+}
+
+@media only screen and (max-width: 750px) {
+    .book-hotel-container{
+        flex-direction: column;
+    }
+  }
